@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks Coffee Company</title>
+    <link rel="icon" href="img/logo.svg">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container  nav">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="Starbucks" />
+                </a>
+            </div>
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">Rewards</a>
+                </li>
+                <li>
+                    <a href="#">Gift Cards</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav-right">
+                <li>
+                    <a href="#">
+                        <img src="img/marker.svg" alt="" />
+                        <span>Find a store</span>
+                    </a>
+                </li>
+                <li><button class="btn btn-dark-outline">Sign in</button></li>
+                <li><button class="btn btn-dark">Join now</button></li>
+            </ul>
+
+            <!-- Hamburger Menu -->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li>
+                <a href="#">Menu</a>
+            </li>
+            <li>
+                <a href="#">Rewards</a>
+            </li>
+            <li>
+                <a href="#">Gift Cards</a>
+            </li>
+        </ul>
+
+        <div class="mobile-menu-bottom">
+            <button class="btn btn-dark-outline">Sign in</button>
+            <button class="btn btn-dark">Join now</button>
+            <div>
+                <a href="#">
+                    <img src="img/logo.svg" alt="">
+                    <span>Find a store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section>
+
+        <!-- Box a -->
+        <div class="box box-a  grid-col-2">
+            <img src="img/starbucks phto1.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha">Buy one fall drink, get one free</h2>
+                <p class="text-md">
+                    Starbucks® Rewards members get one free handcrafted fall drink with purchase of any fall beverage,
+                    every Thursday afternoon in September.*
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+
+        <!-- Box b -->
+        <div class="box box-b grid-col-2 grid-reversed">
+            <img src="img/starbucks phto2.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha"> A cozy deal that delivers</h2>
+                <p class="text-md">
+                    Get $5 off your order of $20 or more and a chance to win a cozy scarf. Order on Uber Eats between
+                    9/18-9/24.**
+
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+
+        <!-- Box c -->
+        <div class="box box-c  grid-col-2">
+            <img src="img/starbucks phto3.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha">Give a pumpkiny present</h2>
+                <p class="text-md">
+                    Share all the fall feels by treating someone you care about.
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+
+        <!-- Box d -->
+        <div class="box box-d  grid-col-2 grid-reversed">
+            <img src="img/starbucks phto4.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha">New apple in the bunch</h2>
+                <p class="text-sm">
+                    Introducing our Iced Apple Crisp Oatmilk Shaken Espresso with a perfectly balanced taste.
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+
+        <!-- Box e -->
+        <div class="box box-e  grid-col-2 ">
+            <img src="img/starbucks phto5.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha">Good idea, chai lovers</h2>
+                <p class="text-sm">
+                    Try the new coffee-free Iced Pumpkin Cream Chai Tea Latte, inspired by our customers. It’s fall in a
+                    cup.
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+        <!-- Box F -->
+        <div class="box box-f  grid-col-2 grid-reversed">
+            <img src="img/starbucks phto6.jpg" alt="" />
+            <div class="box-text">
+                <h2 class="text-ha">Treat time, any time</h2>
+                <p class="text-sm">
+                    Pair a Baked Apple Croissant or Pumpkin Cream Cheese Muffin with your favorite drink all fall long.
+                </p>
+                <a href="#" class="btn btn-light-outline">Order Now</a>
+            </div>
+        </div>
+
+       <div class="content-container">
+        <div class="content">
+            <div class="content-boxA">
+                <div class="box-content">
+                    *Valid 9/7, 9/14, 9/21, AND 9/28/23 after 12:00 p.m. at participating Starbucks stores in the US.
+                    Buy any handcrafted fall drink, and get one of equal or lesser value free ($10 max value). Limit one
+                    per member per week. Qualifying drinks include any size hot/iced/blended versions of Pumpkin Spice
+                    Latte, Pumpkin Cream Cold Brew, Iced Pumpkin Cream Chai Tea Latte, Chai Tea Latte, Apple Crisp
+                    Oatmilk Shaken Espresso, Caramel Apple Spice, and Apple Crisp Oatmilk Macchiato. Adding Pumpkin
+                    Cream Cold Foam and/or other fall flavor modifiers to all other drinks does not qualify.
+                    <br>
+                    Cannot be combined with other offers or discounts. Offer not available through Starbucks Delivers on
+                    Uber Eats or DoorDash.
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-boxA">
+            <div class="box-content2">
+                **From 9/18-9/24, enjoy $5 off on your Starbucks orders of $20 or more on Uber Eats. Restrictions and
+                other taxes/fees apply. See Uber Eats app for details and location availability. Fees subject to change.
+                Menu limited. Restricted delivery area. Available at participating locations only. Your delivery order
+                may be limited in any one transaction to one hundred dollars ($100) before taxes, tip, and fees. We may
+                adjust this limit at any time at our discretion. Prices for Starbucks"
+                <sub>®</sub>
+                "items purchased through Uber eats
+                may be higher than as marked or posted in stores. May not be combined with other offers, discounts, or
+                promotions."
+                <br>
+                Purchase will not improve chances of winning. Void where prohibited. Open to permanent legal residents
+                of the 50 states of the U.S. & D.C. who are the age of majority. Codes/free codes available through
+                11:59:59 pm PT on 9/27/23. Last day to enter the code is at 11:59:59 pm PT on 9/27/23. Prize
+                restrictions apply. Limited one (1) code request per person/email address/household per day. For details
+                see <a href="bestfallever.com" style="color: black;" >bestfallever.com.</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <div class="divider"></div>
+
+        <!-- footer -->
+    <footer>
+        <div class="container-fluid ft  ">
+            <div class="row colf">
+                <div class="col-2">
+                    <h5 class="headf">About Us</h5>
+                    <ul class="footer-ul">
+                        <li class="footer-ls">our company</li>
+                        <li class="footer-ls">our coffe</li>
+                        <li class="footer-ls">stories and news</li>
+                        <li class="footer-ls">starbuck Archive</li>
+                        <li class="footer-ls">investor Relations</li>
+                        <li class="footer-ls">cusstomer service</li>
+                        <li class="footer-ls">contact us</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="headf">Careers</h5>
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Culture and values</li>
+                        <li class="footer-ls">inclusion,Diversity,and Equity</li>
+                        <li class="footer-ls">college Achievement Plan</li>
+                        <li class="footer-ls">Alumni Coummunity</li>
+                        <li class="footer-ls">U.S.Careers</li>
+                        <li class="footer-ls">International Careers</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="headf">Social impact</h5>
+                    <ul class="footer-ul">
+                        <li class="footer-ls">People</li>
+                        <li class="footer-ls">Planet</li>
+                        <li class="footer-ls">Environmental and Social impact Reporting</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="headf">For Business Partners</h5>
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Landlord Support Center</li>
+                        <li class="footer-ls">Suppliers</li>
+                        <li class="footer-ls">Corporate Gift Card Sales</li>
+                        <li class="footer-ls">Office and Foodservice Coffe</li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <h5 class="headf">Order and Pick Up</h5>
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Order on the App</li>
+                        <li class="footer-ls">Order on the Web</li>
+                        <li class="footer-ls">Delivery</li>
+                        <li class="footer-ls">Order and pick Up Options</li>
+                        <li class="footer-ls">Explore and Find Coffee for Home</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+       <!-- mobail-container -->
+
+       <div class="accordion accordion-flush ft1" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    About Us
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="footer-ul">
+                        <li class="footer-ls">our company</li>
+                        <li class="footer-ls">our coffe</li>
+                        <li class="footer-ls">stories and news</li>
+                        <li class="footer-ls">starbuck Archive</li>
+                        <li class="footer-ls">investor Relations</li>
+                        <li class="footer-ls">cusstomer service</li>
+                        <li class="footer-ls">contact us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Careers
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Culture and values</li>
+                        <li class="footer-ls">inclusion,Diversity,and Equity</li>
+                        <li class="footer-ls">college Achievement Plan</li>
+                        <li class="footer-ls">Alumni Coummunity</li>
+                        <li class="footer-ls">U.S.Careers</li>
+                        <li class="footer-ls">International Careers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Social impact
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="footer-ul">
+                        <li class="footer-ls">People</li>
+                        <li class="footer-ls">Planet</li>
+                        <li class="footer-ls">Environmental and Social impact Reporting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    For Business Partners
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Landlord Support Center</li>
+                        <li class="footer-ls">Suppliers</li>
+                        <li class="footer-ls">Corporate Gift Card Sales</li>
+                        <li class="footer-ls">Office and Foodservice Coffe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Order and Pick Up
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <ul class="footer-ul">
+                        <li class="footer-ls">Order on the App</li>
+                        <li class="footer-ls">Order on the Web</li>
+                        <li class="footer-ls">Delivery</li>
+                        <li class="footer-ls">Order and pick Up Options</li>
+                        <li class="footer-ls">Explore and Find Coffee for Home</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="line">
+    <footer class="footermain">
+        <div class="socialmedia-icons">
+          <a href="#">  <i class="bi bi-spotify"></i></a>
+           <a href="#" hr><i class="bi bi-facebook"></i></a>
+           <a href="#"><i class="bi bi-pinterest"></i></a>
+           <a href="#"><i class="bi bi-instagram"></i></a>
+           <a href="#"><i class="bi bi-youtube"></i></a>
+           <a href="#"><i class="bi bi-twitter"></i></a>
+
+        </div>
+        <div class="footer-deatilas">
+            <ul>
+                <li class="under-line">Privacy Notice<span>|</span> </li>
+                <li class="under-line" > Terms of use <span>|</span></li>
+                <li class="under-line">Do Not share My personal information <span>|</span></li>
+                <li class="under-line">CA Supply chai Act <span>|</span></li>
+                <li class="under-line">Cookie preferences </li>
+            </ul>
+
+        </div>
+        <div class="copy-r">
+            <p>© 2023 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+
+    </footer>
+   
+
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
